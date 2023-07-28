@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+    <html lang="es">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PATRI NIETO</title>
+    <style media="screen">
+
+
+
+    </style>
+  </head>
+<body>
+
+
+  <!-- MENU -->
+
+  <!-- The Menu overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <!-- Div para el primer enlace -->
+      <div class="menu-item">
+        <a href="#">PERSONAL</a>
+      </div>
+      <!-- Div para el segundo enlace -->
+      <div class="menu-item">
+        <a href="#">PROFESIONAL</a>
+      </div>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+
+
+
+
+  <div class="containerNav" onclick="openNav()" id="myNav">
+    <div class="topNav" >
+      <p>PATRI NIETO</p>
+    </div>
+  </div>
+
+<div class="img">
+  <img src="myPl_291.jpg" alt="primer plano de persona a contraluz y una luz muy difusa como si estuviera bañado por una luz celestial">
+
+</div>
+<div class="info" id="info">
+  <div class="mail">
+      <a href="mailto:patricianieto2.0@gmail.com?subject=feedback">patricianieto2.0@gmail.com</a>
+      <br>
+      <br>
+      <a href="tel">625 093 694</a>
+      <br>
+      <br>
+      <a href="tel">@1068363_2</a>  </div>
+</div>
+
+<script type="text/javascript">
+
+
+
+/* ---- MENU ------- */
+/* Open */
+function openNav() {
+document.getElementById("myNav").style.display = "block";
+}
+/* Close */
+function closeNav() {
+document.getElementById("myNav").style.display = "none";
+}
+
+
+/* -- efecto Scroll -- */
+// Agregar evento de desplazamiento (scroll)
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("containerNav").style.padding = "30px 10px";
+
+  } else {
+    document.getElementById("containerNav").style.padding = "80px 10px";
+
+  }
+}
+
+</script>
+</body>
+</html>
